@@ -11,7 +11,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 /**
- * The Parser class parses statements using the following left-factored grammar:
+ * The Parser class parses statements using the following grammar:
  *  program → PROCEDURE id ( maybeparms ) ; stmt program | stmt .
  *  maybeparms → parms | ε
  *  parms → parms , id | id
