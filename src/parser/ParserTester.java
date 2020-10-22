@@ -19,7 +19,7 @@ public class ParserTester
     {
         try
         {
-            FileInputStream inStream = new FileInputStream(new File("testerFile.txt")); //replace "testerFile.txt" with a file of PASCAL code of your choosing
+            FileInputStream inStream = new FileInputStream(new File("testerFile.txt")); //replace "testerFile.txt" with a file of Pascal code of your choosing
             Scanner scan = new Scanner(inStream);
 
             Parser pars = new Parser(scan);
